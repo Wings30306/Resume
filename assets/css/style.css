@@ -31,12 +31,11 @@ body {
 }
 
 .bg-color-work-history {
-  background-color: #FFA8A8;
+  background-color: #fafafa;
 }
 
 .bg-color-contact {
   background-color: #9FA8Dc;
-  
 }
 /*Special Paddings/Margins/Text---------------------------------------------*/
 
@@ -223,7 +222,7 @@ footer .cv-pdf:hover{
 
 .three-reasons-icon {
   font-size: 26px;
-  color: #e67e22;
+  color: #CE93D8;
 }
 
 .three-reasons-heading {
@@ -235,7 +234,7 @@ footer .cv-pdf:hover{
 /*PersonalInfo---------------------------------------------*/
 
 .bg-color-personal-info {
-  background-color: #CE93D8;
+  background-color: #fafafa;
 }
 
 .bg-color-download {
@@ -391,5 +390,13 @@ button:hover{
 
 .download-section i {
   font-size: 100px
+}
+
+.bg-color-work-history {
+  background-color: #FFA8A8;
+}
+
+.bg-color-personal-info {
+  background-color: #CE93D8;
 }
 }
