@@ -54,8 +54,7 @@ h1, h2, h3, h4 {
 
 .section-column {
   padding:0 30px 30px;
-  float: none;
-  display: table-cell;
+  display: block;
 }
 
 .row-table {
@@ -280,4 +279,13 @@ footer .cv-pdf:hover{
 .history-title{
   color: #fafafa;
   margin: 50px;
+}
+
+/*Responsiveness--------------------------------------*/
+@media screen and (min-width: 992px) {
+.section-column {
+  padding:0 30px 30px;
+  float: none;
+  display: table-cell;
+}
 }
