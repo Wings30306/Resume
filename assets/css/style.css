@@ -32,6 +32,10 @@ body {
 .bg-color-work-history {
   background-color: #9b59db;
 }
+
+.bg-color-contact {
+  background-color: #f4f4f4;
+}
 /*Special Paddings/Margins/Text---------------------------------------------*/
 
 h1, h2, h3, h4 {
@@ -222,6 +226,10 @@ footer .cv-pdf:hover{
   background-color: #f4f4f4;
 }
 
+.bg-color-download {
+  background-color: #fafafa;
+}
+
 /*Skills---------------------------------------------*/
 
 .progress {
@@ -281,11 +289,89 @@ footer .cv-pdf:hover{
   margin: 50px;
 }
 
+/*Contact--------------------------------------*/
+.contact-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+button[type="submit"] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #3498db;
+  color: #fafafa
+}
+
+button:hover{
+  background-color: #e84f10;
+}
+
+/*Download--------------------------------------*/
+.download-section {
+  text-align: center;
+}
+
+.download-header {
+  padding-top: 20px;
+  padding-bottom: 30px
+}
+
+.download-section a{
+  color: #525252;
+  font-weight: bold;
+}
+
+.download-section i{
+  font-size: 50px;
+}
+
+.download-section .cv-pdf a{
+  text-decoration: none;
+}
+
+.download-section .cv-pdf a:hover{
+  color: #e84f10;
+  
+}
+
+
+
 /*Responsiveness--------------------------------------*/
 @media screen and (min-width: 992px) {
 .section-column {
   padding:0 30px 30px;
   float: none;
   display: table-cell;
+}
+
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.download-section{
+  min-height: 400px
+}
+
+.download-header {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.download-section a{
+  font-size:50px
+}
+
+.download-section i {
+  font-size: 100px
 }
 }
