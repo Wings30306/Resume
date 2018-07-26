@@ -57,11 +57,18 @@ body {
   background-color: #ffffff;
 }
 
+.bg-color-github {
+  background-color: #1c4a6c;
+  color: #efefef;
+  min-height: 400px;
+}
+
 
 /*Special Paddings/Margins/Text---------------------------------------------*/
 
 h1, h2, h3, h4 {
   margin: 0;
+  font-family: "Indie Flower", cursive;
 }
 
 .general-sub {
